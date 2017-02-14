@@ -109,7 +109,7 @@ STATIC_URL = '/static/'
 
 
 RAVEN_CONFIG = {
-    'dsn': 'http://3cd57209da524b27b9a14a111ba1b179:9477fca9999044cdadebb179c2a8dd76@sentry.pixter.in:9000/8',
+    'dsn': os.environ['MYRA__SENTRY_DSN'],
     # If you are using git, you can also automatically configure the
     # release based on the git info.
     'release': raven.fetch_git_sha(os.path.dirname(os.pardir)),
