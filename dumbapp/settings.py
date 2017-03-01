@@ -15,7 +15,7 @@ import os
 
 import raven
 
-BASE_DIR = os.path.abspath("/home/ubuntu/devopsDummy")
+BASE_DIR = os.path.abspath("/devopsDummy")
 
 
 # Quick-start development settings - unsuitable for production
